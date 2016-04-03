@@ -20,7 +20,7 @@ Disclaimer: This plugin is not affiliated with or endorsed by W3C.
 
 <h3>If you need help with this plugin</h3>
 
-If this plugin breaks your site or just flat out does not work, create a thread in the <a href="http://wordpress.org/support/">Support</a> forum with a description of the issue. Make sure you are using the latest version of WordPress and the plugin before reporting issues, to be sure that the issue is with the current version and not with an older version where the issue may have already been fixed.
+If this plugin breaks your site or just flat out does not work, create a thread in the <a href="http://wordpress.org">Support</a> forum with a description of the issue. Make sure you are using the latest version of WordPress and the plugin before reporting issues, to be sure that the issue is with the current version and not with an older version where the issue may have already been fixed.
 
 
 == Installation ==
