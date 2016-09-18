@@ -1,5 +1,6 @@
-# Copyright (C) 2016 DNS Preconnect
-# This file is distributed under the same license as the DNS Prefetch package.
+# Copyright (C) 2016 Preconnect
+# This file is distributed under the same license as the Preconnect package.
+# This file may not work in all case till the second release.
 msgid ""
 msgstr ""
 "Project-Id-Version: Preconnect 1.0\n"
