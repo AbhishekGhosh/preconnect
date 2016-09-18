@@ -58,7 +58,7 @@ Add this to your functions.php:
 == Upgrade Notice ==
 
 = 1.0 =
-WordPress >= 3.9 required. Domain expected to be HSTS.
+Domain expected to be HSTS.
 
 == Changelog ==
 
