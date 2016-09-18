@@ -5,7 +5,7 @@ URL: https://thecustomizewindows.com/2016/04/domain-preconnect-wordpress-plugin-
 Tags: preconnect, optimization
 Requires at least: 4.0
 Tested up to: 4.6.1
-Donate link: null
+Donate link: https://thecustomizewindows.com/
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -27,7 +27,7 @@ If this plugin breaks your site or just does not work, create a thread in the <a
 
 1. Upload plugin file through the WordPress interface.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Go to Settings &raquo; Preconnect, configure plugin.
+3. Go to Settings » Preconnect, configure plugin.
 4. View any of your pages, they should contain the following meta tag:
 
 When you will configure any additional domains (example - `cdn.example.com`), they should also be listed after the line of code above :
@@ -38,7 +38,7 @@ When you will configure any additional domains (example - `cdn.example.com`), th
 
 = How do I use the plugin? =
 
-Go to Settings &raquo; Preconnect and enter any domains you want to be preconnected, in addition to the ones already linked on your home page. Make sure the "enabled" checkbox is checked.
+Go to Settings » Preconnect and enter any domains you want to be preconnected, in addition to the ones already linked on your home page. Make sure the "enabled" checkbox is checked.
 
 = I entered some text but don't see anything on the page. =
 
@@ -54,6 +54,11 @@ Add this to your functions.php:
 
 1. Plugin settings page (note the URLs entered)
 2. HTML source of a webpage (the URLs above are added to the HTML source)
+
+== Upgrade Notice ==
+
+= 1.0 =
+WordPress >= 3.9 required. Domain expected to be HSTS.
 
 == Changelog ==
 
