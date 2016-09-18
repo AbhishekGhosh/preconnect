@@ -10,7 +10,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Adds preconnect link relation type to indicate an origin that will be used to fetch required resources as described in W3C Working Draft.
+Adds preconnect crossorigin link relation type to indicate an origin that will be used to fetch required resources as described in W3C Working Draft.
 
 == Description ==
 
@@ -32,7 +32,7 @@ If this plugin breaks your site or just does not work, create a thread in the <a
 
 When you will configure any additional domains (example - `cdn.example.com`), they should also be listed after the line of code above :
 
-`<link rel="preconnect" href="https://cdn.example.com">`
+`<link rel="preconnect" href="https://example.com" crossorigin>`
 
 == Frequently Asked Questions ==
 
