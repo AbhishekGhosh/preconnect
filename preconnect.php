@@ -1,10 +1,11 @@
 <?php
 /*
 Plugin Name: Preconnect
-Plugin URI: http://www.jimmyscode.com/wordpress/dns-prefetch/
+Plugin URI: https://thecustomizewindows.com/
 Description: Add preconnect crossorgin meta tags to your site.
-Version: 0.1.0
+Version: 1.0
 Author: Abhishek_ghosh
+Contributors: Abhishek_ghosh
 Author URI: https://thecustomizewindows.com/
 License: GPLv2 or later
 */
@@ -235,7 +236,7 @@ if (!defined('PC_PLUGIN_NAME')) {
 		$output .= '<li>' . sprintf( __('<a href="http://wordpress.org/extend/plugins/%s/">Documentation</a>', $localname), $slugname) . '</li>';
 		$output .= '<li>' . sprintf( __('<a href="http://wordpress.org/plugins/%s/faq/">FAQ</a><br />', $localname), $slugname) . '</li>';
 		$output .= '<li>' . sprintf( __('<a href="http://wordpress.org/support/plugin/%s">Support Forum</a><br />', $localname), $slugname) . '</li>';
-		$output .= '<li>' . sprintf( __('<a href="http://www.jimmyscode.com/wordpress/%s">Plugin Homepage / Demo</a><br />', $localname), $slugname) . '</li>';
+		$output .= '<li>' . sprintf( __('<a href="http://thecustomizewindows.com/%s">Plugin Homepage</a><br />', $localname), $slugname) . '</li>';
 		$output .= '<li>' . sprintf( __('<a href="http://wordpress.org/extend/plugins/%s/developers/">Development</a><br />', $localname), $slugname) . '</li>';
 		$output .= '<li>' . sprintf( __('<a href="http://wordpress.org/plugins/%s/changelog/">Changelog</a><br />', $localname), $slugname) . '</li>';
 		$output .= '</ol>';
@@ -243,8 +244,8 @@ if (!defined('PC_PLUGIN_NAME')) {
 		$output .= sprintf( __('If you like this plugin, please <a href="http://wordpress.org/support/view/plugin-reviews/%s/">rate it on WordPress.org</a>', $localname), $slugname);
 		$output .= sprintf( __(' and click the <a href="http://wordpress.org/plugins/%s/#compatibility">Works</a> button. ', $localname), $slugname);
 		$output .= '<br /><br /><br />';
-		$output .= __('Your donations encourage further development and support. ', $localname);
-		$output .= '<a href="https://www.paypal.com/cgi-bin/webscr"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal" title="Support this plugin" width="92" height="26" /></a>';
+		$output .= __('Your donations will be encourage in future. ', $localname);
+		$output .= '<a href="https://thecustomizewindows.com/"><img src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="Donate with PayPal" title="Support this plugin" width="92" height="26" /></a>';
 		$output .= '<br /><br />';
 		return $output;		
 	}
