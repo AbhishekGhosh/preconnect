@@ -166,8 +166,6 @@ if (!defined('PC_PLUGIN_NAME')) {
 		}
 	}
 	// add helpful links to plugin page next to plugin name
-	// http://bavotasan.com/2009/a-settings-link-for-your-wordpress-plugins/
-	// http://wpengineer.com/1295/meta-links-for-wordpress-plugins/
 	add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'pc_plugin_settings_link');
 	add_filter('plugin_row_meta', 'pc_meta_links', 10, 2);
 	
